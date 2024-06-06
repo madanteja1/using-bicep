@@ -19,6 +19,6 @@ jobs:
       - name: Deploy VM using Bicep
         run: |
           az deployment group create \
-            --resource-group azure-training \
+            --resource-group BH-Team \
             --template-file .github/workflows/main.bicep \
             --parameters .github/workflows/parameters.json
